@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto
+}
+.text-1 h2{
+    color: #900C3F;
+    text-align: center;
+}
+.three{
+    width: 30%;
+    height: 25%;
+    float: left;
+    margin: 15px;
+}
+.three img{
+    width: 100%;
+    height: 100%;
+}
+.three{
+    position: relative;
+}
+ .three-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #900C3F;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    transition: .8s;
+}
+.three-text h4{
+    position: absolute;
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.three-text.active,
+.three-text:hover {
+    background-color: #1AB91F;
+    cursor: pointer;
+    transition: .8s;
+}
+/*====position-1===*/
+.text-2 h2{
+    color:  #f5300d;
+    text-align: center;
+    margin-top: 20px;
+}
+.three-1{
+    width: 30%;
+    height: 25%;
+    float: left;
+    margin: 15px;
+}
+.three-1 img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.three-1{
+    position: relative;
+}
+.three-1:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    opacity: .8
+}
+.three-1:after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    opacity: .8
+}
+.three-1:hover:after{
+    height: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+.three-1:hover:before{
+    height: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+/*========position-2========*/
+.three-2{
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin: 15px;
+}
+.three-2 img{
+    width: 100%;
+    height: 100%;
+}
+.three-2{
+    position: relative;
+}
+.three-text-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#FFFF00;
+    opacity: .6;
+    transition: 1s ease-in-out;
+}
+.three-text-2 h4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.three-text-2.active,
+.three-text-2:hover {
+    background-color: orange;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.three-text-2 h4::before {
+    position: ;
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 6px;
+    background-color: red;
+    bottom: 25px;
+    left: -64px;
+}
+.three-text-2 h4::after {
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 6px;
+    background-color: red;
+    top: 25px;
+    right: -64px;
+}
+
+
+
+
+
